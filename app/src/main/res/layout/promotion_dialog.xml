@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/promotion_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:gravity="center_horizontal"
+        android:text="Select a piece to promote the pawn to:"
+        android:textSize="20sp" />
+
+    <RadioGroup
+        android:id="@+id/promotion_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/queen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Queen" />
+
+        <RadioButton
+            android:id="@+id/rook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rook" />
+
+        <RadioButton
+            android:id="@+id/knight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Knight" />
+
+        <RadioButton
+            android:id="@+id/bishop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bishop" />
+
+    </RadioGroup>
+
+</LinearLayout>

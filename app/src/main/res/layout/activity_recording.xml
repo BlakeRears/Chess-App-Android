@@ -1,0 +1,605 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/d"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ChessActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/chessboard"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:layout_editor_absoluteY="5dp">
+
+            <GridLayout
+                android:id="@+id/gridLayout"
+                android:layout_width="342dp"
+                android:layout_height="354dp"
+                android:columnCount="8"
+                android:rowCount="8"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+                <TextView
+                    android:id="@+id/Clickable00"
+                    android:layout_width="42dp"
+                    android:layout_height="43dp"
+                    android:layout_row="0"
+                    android:layout_column="0"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable10"
+                    android:layout_width="40dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable20"
+                    android:layout_width="41dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable30"
+                    android:layout_width="42dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable40"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:layout_row="0"
+                    android:layout_column="4"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable50"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:layout_row="0"
+                    android:layout_column="5"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable60"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable70"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable01"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable11"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable21"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable31"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable41"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable51"
+                    android:layout_width="43dp"
+                    android:layout_height="45dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable61"
+                    android:layout_width="41dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable71"
+                    android:layout_width="42dp"
+                    android:layout_height="45dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable02"
+                    android:layout_width="44dp"
+                    android:layout_height="42dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable12"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable22"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable32"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable42"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable52"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable62"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable72"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable03"
+                    android:layout_width="43dp"
+                    android:layout_height="45dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable13"
+                    android:layout_width="43dp"
+                    android:layout_height="47dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable23"
+                    android:layout_width="41dp"
+                    android:layout_height="46dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable33"
+                    android:layout_width="44dp"
+                    android:layout_height="46dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable43"
+                    android:layout_width="39dp"
+                    android:layout_height="46dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable53"
+                    android:layout_width="41dp"
+                    android:layout_height="46dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable63"
+                    android:layout_width="41dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable73"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable04"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable14"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable24"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable34"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable44"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable54"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable64"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable74"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable05"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable15"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable25"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable35"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable45"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable55"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable65"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable75"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable06"
+                    android:layout_width="43dp"
+                    android:layout_height="46dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable16"
+                    android:layout_width="43dp"
+                    android:layout_height="47dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable26"
+                    android:layout_width="43dp"
+                    android:layout_height="47dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable36"
+                    android:layout_width="43dp"
+                    android:layout_height="48dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable46"
+                    android:layout_width="43dp"
+                    android:layout_height="46dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable56"
+                    android:layout_width="41dp"
+                    android:layout_height="45dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable66"
+                    android:layout_width="43dp"
+                    android:layout_height="49dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable76"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable07"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable17"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable27"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable37"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable47"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable57"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable67"
+                    android:layout_width="43dp"
+                    android:layout_height="43dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+                <TextView
+                    android:id="@+id/Clickable77"
+                    android:layout_width="43dp"
+                    android:layout_height="42dp"
+                    android:clickable="true"
+                    android:elevation="1dp"
+                    android:onClick="onClick" />
+
+            </GridLayout>
+
+            <Button
+                android:id="@+id/nextButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.894"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.923" />
+
+            <Button
+                android:id="@+id/homeButton2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Home"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.108"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.923" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Recording"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.110000014" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
