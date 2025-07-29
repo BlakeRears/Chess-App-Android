@@ -33,5 +33,10 @@ A beginner-friendly Android chess application where players can face off against
 ## 📌 Notes
 This app uses simple AI logic for the computer opponent (random valid moves). The replay and assist features are designed to help users learn and experiment with chess gameplay.
 
+## 📷 Images
+(chess-images/ChessBoard.png)
+
+
 ## 👤 Author
 Blake – [GitHub](https://github.com/BlakeRears)
+
