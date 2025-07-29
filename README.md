@@ -2,6 +2,8 @@
 
 A beginner-friendly Android chess application where players can face off against a computer opponent that makes random valid moves. Includes support for replaying past games and optional AI-assisted moves.
 
+TO SEE THE APP WITHOUT DOWNLOAD PLEASE LOOK AT (chess-images) folder
+
 ## 🧠 Features
 - 🧍 Player vs. Computer mode
 - 🎲 Computer selects random legal chess moves
@@ -13,6 +15,7 @@ A beginner-friendly Android chess application where players can face off against
 
 ## 🛠️ Technologies Used
 - Java
+- Java SDK 19
 - Android SDK
 - Android Studio
 
@@ -32,10 +35,6 @@ A beginner-friendly Android chess application where players can face off against
 
 ## 📌 Notes
 This app uses simple AI logic for the computer opponent (random valid moves). The replay and assist features are designed to help users learn and experiment with chess gameplay.
-
-## 📷 Images
-(chess-images/ChessBoard.png)
-
 
 ## 👤 Author
 Blake – [GitHub](https://github.com/BlakeRears)
